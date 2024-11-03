@@ -1,3 +1,4 @@
+
 public class NamecardTestDrove{
     public static void main(String[] args){
         Namecard namecard = new Namecard();
