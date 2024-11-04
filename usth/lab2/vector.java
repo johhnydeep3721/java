@@ -31,6 +31,19 @@ public class vector {
     public vector multiply(vector other){
         return new vector(this.x*other.x, this.y*other.y);
     }
+    public double dotProcduct(vector other){
+        return this.x*other.x + this.y*other.y;
+    }
+    public double magnitude(){
+        return Math.sqrt(x*x +y*y);
+    }
+
+    public double anglewith(vector other){
+        double dotProd = this.dotProcduct(other);
+        double magnitudeA = this.magnitude();
+        double magnitudeB = this.magnitude();
+        return Math.acos(dotProd/magnitudeA*magnitudeB);
+    }
     
     public String toString(){
         return "(" +x +", " + y + ")";
