@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class vectorTestDrive x{
+public class vectorTestDrive {
     public static void main(String[] args){
 
 

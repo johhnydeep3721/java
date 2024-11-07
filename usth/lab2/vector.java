@@ -18,7 +18,7 @@ public class vector {
     public void setX(double newX ){
         this.x =newX;
     }
-    public void getY(double newY ){
+    public void setY(double newY ){
         this.y =newY;
     }
 
