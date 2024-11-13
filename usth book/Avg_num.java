@@ -23,5 +23,5 @@ public class Avg_num{
         double avg_n = sum/n;
         System.out.println("average of number is:" +avg_n);
     }
-
+    
 }

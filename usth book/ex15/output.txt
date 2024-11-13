@@ -1,0 +1,8 @@
+Course: 
+ID: 1 name: lin.
+ID: 2 name: cal.
+Lecture: 
+ID: 1 name: minh.
+ID: 2 name: minh.
+Student: 
+ID: 1 name: minh midterm mark: 20 final mark: 20ID: 2 name: minh midterm mark: 20 final mark: 20
