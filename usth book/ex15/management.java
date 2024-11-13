@@ -24,7 +24,7 @@ public class management {
             List<Integer> StudentFinals = new ArrayList<>();
             
 
-            System.out.println("input Courses: ");
+            System.out.println(" Courses ");
             for(int i = 0;i<num;i++){
                 System.out.println("input course ID: ");
                 String courseid = scanner.nextLine();
@@ -34,7 +34,7 @@ public class management {
                 courseNames.add(coursename);
             }
 
-            System.out.println("input Lecuture: ");
+            System.out.println(" Lecuture ");
             for(int i =0; i<num;i++){
                 System.out.println("input lecture ID: ");
                 String lectureid = scanner.nextLine();
@@ -44,7 +44,7 @@ public class management {
                 lectureNames.add(lectruename);
             }
 
-            System.out.println("input Student: ");
+            System.out.println("Student ");
             for(int i=0;i<num;i++){
                 System.out.println("input student ID: ");
                 String studentid = scanner.nextLine();
