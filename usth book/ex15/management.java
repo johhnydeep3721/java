@@ -79,7 +79,13 @@ public class management {
             }
             writer.write("Student: \n");
             for(int i =0;i<studentIDs.size();i++){
-                writer.write("ID: "+studentIDs.get(i)+" name: "+studentNames.get(i)+" midterm mark: "+studentMids.get(i)+" final mark: "+StudentFinals.get(i));
+                writer.write("ID: "+studentIDs.get(i)+" name: "+studentNames.get(i)+" midterm mark: "+studentMids.get(i)+" final mark: "+StudentFinals.get(i)+"\n");
+                if(studentMids.get(i)>7 && StudentFinals.get(i)>=10){
+                    writer.write(studentNames.get(i) + ": " + "Grade passing "+ "\n");
+                }
+                else{
+                    writer.write(studentNames.get(i) + ": " + "Retake students "+"\n");
+                }
             }
        }
         catch(IOException e){

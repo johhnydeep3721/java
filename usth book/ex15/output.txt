@@ -1,8 +1,10 @@
 Course: 
-ID: 1 name: lin.
-ID: 2 name: cal.
+ID: d name: dat.
+ID: 4 name: dat.
 Lecture: 
-ID: 1 name: minh.
-ID: 2 name: minh.
+ID: 3 name: nam.
+ID: 41s name: son.
 Student: 
-ID: 1 name: minh midterm mark: 20 final mark: 20ID: 2 name: minh midterm mark: 20 final mark: 20
+ID: viet name: viet midterm mark: 10 final mark: 20
+[viet, duc]: Grade passing ID: 214 name: duc midterm mark: 1 final mark: 10
+[viet, duc]: Retake students 
