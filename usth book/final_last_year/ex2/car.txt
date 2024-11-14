@@ -1,0 +1,6 @@
+list  car: Cars@b1bc7edbrand: to
+ horsepower: 2.0
+ price: 3.0
+list  car: Cars@6576fe71brand: tr
+ horsepower: 2.0
+ price: 3.0
